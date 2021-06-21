@@ -1,5 +1,7 @@
 # 对libprocesshider的processhider.c文件简单优化
 
+[优化脚本](code//processhider.c)
+
 原脚本文件使用了strcmp函数,说明只针对固定字符串全匹配进行过滤.代码如下:
 
 ![image-20210621213202135](image//image-20210621213202135.png)
